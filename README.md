@@ -27,3 +27,4 @@ Preview:
 Visit the live demo (or showcase a screenshot of the project if available).
 
 ![image alt](https://github.com/sridinesh04/Itzfizz/blob/2ad92c1058c17d7639297c7e4edaf5a5dbec6d75/Screenshot%202025-02-17%20190331.png)
+Demo video :
