@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pha5e Hero Section</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#explore">Explore</a>
+        <a href="#hero">Hero</a>
+        <a href="#animate">Animate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <video autoplay muted loop class="bg-video">
+        <source src="./3163534-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    </video>
+
+    <section id="hero" class="hero">
+        <h1 class="hero-title">Elevate Your Digital Presence</h1>
+        <p class="hero-subtitle">Experience seamless interaction like never before.</p>
+        <button class="cta" onclick="scrollToAbout()">Get Started</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Discover the journey behind Pha5e.</p>
+    </section>
+
+    <section id="explore" class="section">
+        <h2>Explore</h2>
+        <p>Discover interactive features and effects.</p>
+    </section>
+
+    <section id="animate" class="section">
+        <h2>Animations</h2>
+        <p>Experience smooth animations and transitions.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Reach out for collaborations and queries.</p>
+    </section>
+
+    <canvas id="webgl"></canvas>
+</body>
+</html>
