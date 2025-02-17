@@ -25,3 +25,4 @@ This project serves as a great demonstration of smooth animations and interactiv
 
 Preview:
 Visit the live demo (or showcase a screenshot of the project if available).
+
